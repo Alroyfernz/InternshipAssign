@@ -56,12 +56,12 @@
      justify-content: center;
    }
    .card_content{
-     width: 320px;
+     width: 275px !important;
      height: 380px;
      display: flex;
      flex-direction: column;
      background-color: white;
-     margin-right: 23px;
+     /* margin-right: 13px; */
      border: 1px solid rgb(255, 255, 255);
      transition: 0.3s all;
      border-radius: 10px;
