@@ -9,7 +9,6 @@ import { CgNotes } from "react-icons/cg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SiAdobeacrobatreader } from "react-icons/si";
-import Cards from "./Cards";
 
 export default class PreviousNextMethods extends Component {
   constructor(props) {
