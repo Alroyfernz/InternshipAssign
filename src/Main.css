@@ -93,7 +93,7 @@ padding: 10px;
    
    }
    .info>.title>span{
-     font-size: 22px;
+     font-size: 20px;
     
      font-weight: 800;
    
@@ -115,7 +115,7 @@ padding: 10px;
    background-size: cover;
    }
    .heading{
-     background-image: -webkit-gradient(linear,right top,left top,color-stop(99%,#5262bd),color-stop(-3%,#050f9b));
+     background-image: -webkit-gradient(linear,right top,left top,color-stop(99%,#3161a1),color-stop(-3%,#052d9b));
    
    
    margin-bottom: 9px;

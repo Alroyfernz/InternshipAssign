@@ -9,6 +9,7 @@ import { CgNotes } from "react-icons/cg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SiAdobeacrobatreader } from "react-icons/si";
+import Cards from "./Cards";
 
 export default class PreviousNextMethods extends Component {
   constructor(props) {
@@ -96,11 +97,11 @@ export default class PreviousNextMethods extends Component {
               <div className="heading">
                 {" "}
                 <BiTimeFive style={{ marginTop: "3px" }} />
-                <span>15 seats left</span>
+                <span>Starts in 15 days</span>
               </div>
               <div className="info">
                 <div className="title">
-                  <span>IBPS PO & SBI PO Live Coaching</span>
+                  <span>Civil Junior Engineer Live Coaching Batch 2</span>
                 </div>
                 <hr />
 
@@ -110,20 +111,64 @@ export default class PreviousNextMethods extends Component {
                     <AiOutlineYoutube
                       style={{ color: "red", marginRight: "4px" }}
                     />
-                    240+ Live Classes
+                    200+ Live Classes
                   </span>
                 </div>
                 <div className="info_second">
                   <span className="info_left">
                     {" "}
-                    <CgNotes style={{ color: "#FFD633" }} /> 9000+ questions
+                    <CgNotes style={{ color: "#FFD633" }} /> 5000+ questions
                   </span>
                   <span className="info_right">
                     {" "}
                     <SiAdobeacrobatreader
                       style={{ color: "red", marginRight: "4px" }}
                     />
-                    120+ Notes
+                    80+ Notes
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="card_content">
+              <div className="card_image" />
+
+              <div
+                className="heading"
+                style={{
+                  backgroundImage:
+                    "-webkit-gradient(linear,right top,left top,color-stop(99%,#4bb376),color-stop(-3%,#059b37))",
+                }}
+              >
+                {" "}
+                <BiTimeFive style={{ marginTop: "3px" }} />
+                <span>Batch closes in 2 days</span>
+              </div>
+              <div className="info">
+                <div className="title">
+                  <span>UPSC CDS-2 2021 Live Coaching</span>
+                </div>
+                <hr />
+
+                <div className="info_first">
+                  <span>
+                    {" "}
+                    <AiOutlineYoutube
+                      style={{ color: "red", marginRight: "4px" }}
+                    />
+                    220+ Live Classes
+                  </span>
+                </div>
+                <div className="info_second">
+                  <span className="info_left">
+                    {" "}
+                    <CgNotes style={{ color: "#FFD633" }} /> 6000+ questions
+                  </span>
+                  <span className="info_right">
+                    {" "}
+                    <SiAdobeacrobatreader
+                      style={{ color: "red", marginRight: "4px" }}
+                    />
+                    100+ Notes
                   </span>
                 </div>
               </div>
@@ -166,6 +211,7 @@ export default class PreviousNextMethods extends Component {
                 </div>
               </div>
             </div>
+
             <div className="card_content">
               <div className="card_image" />
 
@@ -204,6 +250,7 @@ export default class PreviousNextMethods extends Component {
                 </div>
               </div>
             </div>
+
             <div className="card_content">
               <div className="card_image" />
 
