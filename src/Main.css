@@ -1,0 +1,159 @@
+.main_content{
+    margin: auto;
+     width:975px;
+     height:560px;
+     padding: 60px 15px;
+    
+   
+   }
+   
+   .top_content{
+     display: flex;
+     justify-content: space-between;
+   }
+   .top_left>.left{
+     background-color: red;
+     padding: 8px;
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+     border-radius: 7px;
+   }
+   .top_left>.right{
+     font-size: 26px;
+     font-weight: 600;
+     width: 274px;
+     height: 37px;
+   }
+   
+   .top_right>.left_btn{
+     padding: 5px;
+     border-radius: 4px;
+   background-color: grey;
+   color: white;
+   cursor: pointer;
+   }
+   
+   .top_right>.right_btn{
+     margin-left: 10px;
+     padding: 5px;
+     border-radius: 4px;
+     background-color: grey;
+     color: white;
+     cursor: pointer;
+   }
+   
+   .top_left>.right{
+     margin-left: 10px;
+   }
+   .bottom_content{
+     margin-top: 15px;
+   }
+   .bottom_wrapper{
+     /* display: grid;
+     grid-template-columns: repeat(1fr,3); */
+     display: flex;
+     justify-content: center;
+   }
+   .card_content{
+     width: 320px;
+     height: 380px;
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     margin-right: 23px;
+     border: 1px solid rgb(255, 255, 255);
+     transition: 0.3s all;
+     border-radius: 10px;
+   }
+   .slick-slide{
+padding: 10px;
+
+
+
+   }
+
+
+   .sick_list{
+      margin-right: 10px;
+   }
+   .card_content:hover{
+     cursor: pointer;
+     transform: scale(1.03);
+   }
+   .title{
+     height: 60px;
+     width:100%;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* margin-bottom: 20px; */
+    
+   
+   }
+   .info>.title>span{
+     font-size: 22px;
+    
+     font-weight: 800;
+   
+   
+   
+   
+     
+   }
+   
+   .card_image{
+     border-top: 1px solid rgb(255, 255, 255);
+     
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     
+     background-image: url("https://cdn.testbook.com/products/2021/August/9/__w-200-400-600__/IBPS%20PO%20&%20SBI%20PO%20Live%20Coaching%20in%20English%20Batch%202_Course%20Card.jpg.jpeg");
+   width:100%;
+   height: 150px;
+   background-size: cover;
+   }
+   .heading{
+     background-image: -webkit-gradient(linear,right top,left top,color-stop(99%,#5262bd),color-stop(-3%,#050f9b));
+   
+   
+   margin-bottom: 9px;
+    padding: 8px 15px;
+     text-align: center;
+     color: white;
+     
+    
+    
+   }
+   .heading>span{
+       padding-left: 7px;
+       color: #ffffff;
+       font-weight: 600;
+   }
+   .info{
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+   
+   }
+   .info_first,.info_second{
+    color: rgb(116, 116, 116);
+     padding-left: 20px;
+   }
+   .info_first{
+     padding-top: 30px;
+   }
+   .info_first>span{
+       font-size: 13px;
+   }
+   .info_second{
+     padding-top: 10px;
+     display: flex;
+ 
+     justify-content: space-between;
+   }
+   .info_second>span{
+       font-size: 13px;
+   }
